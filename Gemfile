@@ -7,7 +7,10 @@ gem 'rails', '3.2.5'
 
 gem 'sqlite3'
 gem 'haml-rails'
-
+gem 'activeadmin'
+gem "meta_search",    '>= 1.1.0.pre'
+gem 'pg'
+gem 'postgres-pr'
 
 # Gems used only for assets and not required
 # in production environments by default.
@@ -42,3 +45,6 @@ end
 
 # To use debugger
 # gem 'debugger'
+
+
+gem "devise"

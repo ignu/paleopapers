@@ -1,0 +1,15 @@
+%p#notice= notice
+
+%p
+  %b Url:
+  = @paper.url
+%p
+  %b Description:
+  = @paper.description
+%p
+  %b Title:
+  = @paper.title
+
+= link_to 'Edit', edit_paper_path(@paper)
+\|
+= link_to 'Back', papers_path
