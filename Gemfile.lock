@@ -43,7 +43,12 @@ GEM
       multi_json (~> 1.0)
     factory_girl (3.4.0)
       activesupport (>= 3.0.0)
-    haml (3.1.4)
+    haml (3.1.6)
+    haml-rails (0.3.4)
+      actionpack (~> 3.0)
+      activesupport (~> 3.0)
+      haml (~> 3.0)
+      railties (~> 3.0)
     hike (1.2.1)
     i18n (0.6.0)
     journey (1.0.3)
@@ -122,7 +127,7 @@ PLATFORMS
 DEPENDENCIES
   coffee-rails (~> 3.2.1)
   factory_girl
-  haml
+  haml-rails
   jquery-rails
   rails (= 3.2.5)
   rspec-rails
