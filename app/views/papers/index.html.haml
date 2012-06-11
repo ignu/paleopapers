@@ -1,17 +1,9 @@
 %h1 Listing papers
 
 %table
-  %tr
-    %th Url
-    %th Description
-    %th Title
-    %th
-    %th
-    %th
 
   - @papers.each do |paper|
     %tr
-      %td= paper.url
       %td= paper.description
       %td= paper.title
       %td= link_to 'Show', paper
