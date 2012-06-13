@@ -1,5 +1,4 @@
 Paleopapers::Application.routes.draw do
-
   devise_for :users
 
   resources :papers
